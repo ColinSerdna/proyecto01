@@ -1,12 +1,3 @@
-@Override
-    @Transactional
-    public void iSave(Salary salary) {
-
-        if (salary.getMonthlySalary() >= 141.70 && salary.getPeriod().getNumberDays() >= 1 && salary.getPeriod().getNumberDays() <= 31) {
-
-            TableIsr2021 tableIsr2021 = iTableIsr2021Dao.findByLowerLimit(salary.getMonthlySalary());
-
-            TableSubsidy2021 tableSubsidy2021 = iTableSubsidy2021Dao.findByIncomeFrom(salary.getMonthlySalary());
 
             double monthFactor = 30.40;
 
