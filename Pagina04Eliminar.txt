@@ -1,6 +1,0 @@
-tercer cambio
-git diff
-A seguir aprendiendo
-más
-
-Y lo seguire haciendo
