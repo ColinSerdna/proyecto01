@@ -1,4 +1,4 @@
- passwords.txt
+passwords.txt
 
 *.class
 # Estos son comentarios en el archivo .gitignore
