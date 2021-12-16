@@ -7,3 +7,5 @@ git diff Pagina01
 new commits
 
 branch
+
+CAMBIANDONOS DE BRANCH SIN HABER HECHO COMMIT DE NUESTROS CAMBIOS
